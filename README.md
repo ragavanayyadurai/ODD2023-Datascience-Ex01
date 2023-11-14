@@ -20,7 +20,7 @@ Save the Clean data to the file
 # CODE:
 
 **DATA CLEANING HANDLING NULL** **VALUES**
-```
+```python
 import pandas as pd
 
 df=pd.read_csv('/content/SAMPLEDS.csv')
