@@ -1,5 +1,4 @@
-# Ex-01_DS_Data_Cleansing
-
+# Ex-01 DS Data Cleaning
 
 ## AIM
 To read the given data and perform data cleaning and save the cleaned data to a file. 
@@ -21,7 +20,7 @@ Save the Clean data to the file
 # CODE:
 
 **DATA CLEANING HANDLING NULL** **VALUES**
-
+```
 import pandas as pd
 
 df=pd.read_csv('/content/SAMPLEDS.csv')
@@ -111,7 +110,7 @@ for x in df.index:
     df.drop(x,inplace=True)
     
 df
-
+```
 # Output:
 ![image](https://github.com/Yugendaran/ODD2023-Datascience-Ex01/assets/128135616/ac34c6d8-e10f-4d6c-8682-0a41642c35a9)
 
